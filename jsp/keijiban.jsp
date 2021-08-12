@@ -46,12 +46,11 @@ int i = reslist.size() + 1;
 		</li>
 		<li>
 			<label>内容</label>
-			<textarea name="contents" style="width:80%; height:150px"></textarea>
+			<textarea name="contents" style="width:80%; height:150px" cols="30" wrap="hard"></textarea>
 			<div class="check"><c:out value="${ msgcontents }" /></div>
 		</li>
 	</ul>
 	<button>書き込む</button>
-	</form>
 <br>
 <hr>
 <%
@@ -76,6 +75,7 @@ ResBean res = iterator.previous();
  <%} %>
  <%}
 }%>
+</form>
 </div>
 </body>
 </html>

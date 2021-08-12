@@ -16,7 +16,7 @@
 			<td><input type="hidden" name="id" value="${ newthreadlistitem.thread_id }" />
 			<input type="hidden" name="title" value="${ newthreadlistitem.title }" />
 			<a href="/keijiban/Administrator_newthread_Controller?thread_id=${ newthreadlistitem.thread_id }"><c:out value="${ newthreadlistitem.title }" /></a></td>
-			<td><a href="/keijiban/Administrator_thread_delete_Controller?thread_id=${ newthreadlistitem.thread_id }">削除</a></td>
+			<td>&emsp;&emsp;<a href="/keijiban/Administrator_thread_delete_Controller?thread_id=${ newthreadlistitem.thread_id }">削除</a></td>
 		</tr>
 		</c:forEach>
 	</table>

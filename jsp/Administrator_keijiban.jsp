@@ -50,7 +50,7 @@ ResBean res = iterator.previous();
 	<td>名前:<%=res.getName() %></td>
 </tr>
 <tr>
-	<td>内容:<%=res.getContents() %></td>
+	<td style="width:700px;">内容:<%=res.getContents() %></td>
 </tr>
 <tr>
 	<td>日付:<%=res.getTime() %></td>

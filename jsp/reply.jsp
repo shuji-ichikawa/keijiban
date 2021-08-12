@@ -10,7 +10,7 @@ import="keijiban.Cast"%>
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="/keijiban/css/style.css">
-<title>ニュース掲示板</title>
+<title>コメント返信ページ</title>
 </head>
 <%
 List<ResBean> reslist = Cast.castList(session.getAttribute("reslist"));

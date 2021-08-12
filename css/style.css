@@ -33,6 +33,7 @@ div.dodai{
 	padding:50px 0px;
 	background-color: #ffffff;
 	width: 70%;
+	min-width : 800px;
 }
 
 div.migiue{
